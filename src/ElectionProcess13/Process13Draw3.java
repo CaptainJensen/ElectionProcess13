@@ -27,7 +27,7 @@ public class Process13Draw3 extends PApplet {
 
     public void setup(){
 
-        size(1500,1000);
+        size(1600,1000);
 
         for (int i = 0; i < results.length-1; i++) {
 

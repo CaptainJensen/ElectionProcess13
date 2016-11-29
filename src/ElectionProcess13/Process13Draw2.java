@@ -34,7 +34,7 @@ public class Process13Draw2 extends PApplet {
 
 
     public void setup(){
-        size(600,600);
+        size(1600,1000);
 
         for (int i = 0; i < results.length-1; i++) {
 
@@ -51,7 +51,7 @@ public class Process13Draw2 extends PApplet {
             y = this.height/2;
             angle = random(0,2*PI);
             radius = random(1,51);
-            speed= random(1,1);
+            speed= random(1,51);
 
 
             circles.add(new Circle(x,y,radius,speed,angle,Integer.valueOf(state[2]),party));
@@ -91,6 +91,7 @@ public class Process13Draw2 extends PApplet {
             for (int r = 0; r < circles.size(); r++) {
                 if(circles.get(i).isIntersecting(circles.get(r))) {
                     this.line(circles.get(i).getX(),circles.get(i).getY(),circles.get(r).getX(),circles.get(r).getY());
+                    this.strokeWeight(1);
                 }
             }
 
