@@ -1,0 +1,51 @@
+Alabama R 9
+Alaska R 3 665384
+Arizona R 11 113990
+Arkansas R 6
+California D 55 163695
+Colorado D 9 104094
+Connecticut D 7
+Delaware D 3
+D.C. D 3
+Florida D 29 65757
+Georgia R 16
+Hawaii D 4
+Idaho R 4 83569
+Illinois D 20
+Indiana R 11
+Iowa D 6
+Kansas R 6 82278
+Kentucky R 8
+Louisiana R 8
+Maine D 4
+Maryland D 10
+Massachusetts D 11
+Michigan D 16 96714
+Minnesota D 10 86936
+Mississippi R 6 
+Missouri R 10 69707
+Montana R 3 147040
+Nebraska R 5 77348
+Nevada D 6 110572
+NewHampshire D 4
+NewJersey D 14
+NewMexico D 5 121590
+NewYork D 29
+NorthCarolina R 15
+NorthDakota R 3 70698
+Ohio D 18
+Oklahoma R 7 69899
+Oregon D 7 98379
+Pennsylvania D 20
+RhodeIsland D 4
+SouthCarolina R 9
+SouthDakota R 3 77116
+Tennessee R 11
+Texas R 38 268596
+Utah R 6 84897
+Vermont D 3
+Virginia D 13
+Washington D 12 71298
+WestVirginia R 5
+Wisconsin D 10
+Wyoming R 3 97813

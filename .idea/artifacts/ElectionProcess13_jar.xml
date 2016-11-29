@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ElectionProcess13:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ElectionProcess13_jar</output-path>
+    <root id="archive" name="ElectionProcess13.jar">
+      <element id="module-output" name="ElectionProcess13" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Code Projects/Libararies API/Processing.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
