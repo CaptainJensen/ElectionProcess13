@@ -4,10 +4,6 @@ package ElectionProcess13;
  * Created by Jensen on 11/28/16.
  */
 
-import processing.core.PApplet;
-import java.awt.*;
-import java.util.ArrayList;
-
 /*
 *
 *   Created By Jensen
