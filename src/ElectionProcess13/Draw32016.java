@@ -1,21 +1,16 @@
 package ElectionProcess13;
 
-
 import processing.core.PApplet;
 import processing.core.PImage;
 
 import java.awt.*;
 import java.util.ArrayList;
 
-/*
-*
-*   Created By Jensen
-*
-*/
+/**
+ * Created by Jensen on 12/7/16.
+ */
+public class Draw32016 extends PApplet {
 
-
-
-public class Process13Draw3 extends PApplet {
 
     private float x;
     private float y;
@@ -24,7 +19,7 @@ public class Process13Draw3 extends PApplet {
     private float radius;
     private Color party;
     private ArrayList<Circle> circles = new ArrayList<Circle>();
-    private String results[] = loadStrings("ElectionProcess13/2012ElectionResults.txt");
+    private String results[] = loadStrings("ElectionProcess13/2016ElectionResults.txt");
     private PImage img = loadImage("ElectionProcess13/usa.png");
 
 
@@ -104,4 +99,6 @@ public class Process13Draw3 extends PApplet {
 
 
 }
+
+
 
