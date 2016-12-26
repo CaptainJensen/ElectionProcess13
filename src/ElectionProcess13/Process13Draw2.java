@@ -47,7 +47,7 @@ public class Process13Draw2 extends PApplet {
             y = this.height/2;
             angle = random(0,2*PI);
             radius = random(1,51);
-            speed= random(1,51);
+            speed= random(1,3);
 
 
             circles.add(new Circle(x,y,radius,speed,angle,Integer.valueOf(state[2]),party));
@@ -62,7 +62,7 @@ public class Process13Draw2 extends PApplet {
 
 
         //redraw the background to update the circles
-        this.background(200);
+       // this.background(200);
 
 
 

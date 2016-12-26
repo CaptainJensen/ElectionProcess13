@@ -24,7 +24,7 @@ public class Process13Draw3 extends PApplet {
     private float radius;
     private Color party;
     private ArrayList<Circle> circles = new ArrayList<Circle>();
-    private String results[] = loadStrings("ElectionProcess13/2012ElectionResults.txt");
+    private String results[] = loadStrings("ElectionProcess13/2016ElectionResults.txt");
     private PImage img = loadImage("ElectionProcess13/usa.png");
 
 

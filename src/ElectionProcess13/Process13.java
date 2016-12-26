@@ -64,7 +64,7 @@ public class Process13 extends PApplet {
 
 
 
-        for (int i = 0; i < 1; i++) { //draw the circles
+        for (int i = 0; i < 50; i++) { //draw the circles
 
             //draw the circle
             this.ellipse(circles.get(i).getX(),circles.get(i).getY(),circles.get(i).getRadius(),circles.get(i).getRadius());
