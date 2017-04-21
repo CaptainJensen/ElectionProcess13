@@ -19,18 +19,19 @@ public class Draw32016 extends PApplet {
     private float radius;
     private Color party;
     private ArrayList<Circle> circles = new ArrayList<Circle>();
-    private String results[] = loadStrings("ElectionProcess13/2016ElectionResults.txt");
-    private PImage img = loadImage("ElectionProcess13/usa.png");
+    private String results[];
+    private PImage img;
 
+
+    public void settings() {
+
+        results = loadStrings("ElectionProcess13/2016ElectionResults.txt");
+        img = loadImage("ElectionProcess13/usa.png");
+        size(img.width,img.height);
+    }
 
 
     public void setup(){
-
-        size(img.width,img.height);
-
-
-
-
 
         for (int i = 0; i < results.length-1; i++) {
 
